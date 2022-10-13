@@ -16,7 +16,7 @@ h3 {
     font-size: 30px;
 }
 
-section {
+.flex-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -53,4 +53,36 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    padding-bottom: 15px;
+
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#web-exp {
+    border-left: 10px solid;
+    border-image: linear-gradient(red, tomato);
+    border-image-slice: 1;
+}
+
+#web-exp-2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(green, blue);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
